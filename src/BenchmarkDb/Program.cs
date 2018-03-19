@@ -38,6 +38,7 @@ namespace BenchmarkDb
                 { "ado-mysql", new AdoDriver(MySqlClientFactory.Instance) },
                 { "ado-sqlclient", new AdoDriver(SqlClientFactory.Instance) },
                 { "ado-sqlite", new AdoDriver(SqliteFactory.Instance) },
+                { "mysql-direct", new MySqlDirectDriver() },
                 { "peregrine", new PeregrineDriver() },
                 { "ado-peregrine", new PeregrineAdoDriver(PeregrineFactory.Instance) }
             };
